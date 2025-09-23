@@ -1,0 +1,19 @@
+{
+  "name": "utilify",
+  "version": "1.0.0",
+  "description": "A tiny JavaScript utility library for helper functions",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "utility",
+    "helper",
+    "javascript",
+    "library",
+    "utilify"
+  ],
+  "author": "M. Gema Maulana, S. Kom",
+  "license": "MIT",
+  "type": "module"
+}
