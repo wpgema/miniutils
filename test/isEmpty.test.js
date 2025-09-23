@@ -1,4 +1,4 @@
-const isEmpty = require("../src/isEmpty");
+import isEmpty from "../src/isEmpty.js";
 
 test("isEmpty should detect empty values", () => {
     expect(isEmpty([])).toBe(true);

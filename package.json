@@ -1,19 +1,31 @@
 {
-  "name": "utilify",
-  "version": "1.0.0",
-  "description": "A tiny JavaScript utility library for helper functions",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "utility",
-    "helper",
-    "javascript",
-    "library",
-    "utilify"
-  ],
-  "author": "M. Gema Maulana, S. Kom",
-  "license": "MIT",
-  "type": "module"
+	"name": "utilify",
+	"version": "1.0.0",
+	"description": "A tiny JavaScript utility library for helper functions",
+	"main": "src/index.js",
+	"exports": "./src/index.js",
+	"type": "module",
+	"scripts": {
+		"test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+	},
+	"keywords": [
+		"utility",
+		"helper",
+		"javascript",
+		"library",
+		"utilify"
+	],
+	"author": "M. Gema Maulana, S. Kom",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/wpgema/utilify.git"
+	},
+	"bugs": {
+		"url": "https://github.com/wpgema/utilify/issues"
+	},
+	"homepage": "https://github.com/wpgema/utilify#readme",
+	"devDependencies": {
+		"jest": "^29.7.0"
+	}
 }
