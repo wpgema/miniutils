@@ -1,4 +1,4 @@
-import sum from "../src/sum.js";
+import sum from "../src/array/sum.js";
 
 test("sum should add all numbers in array", () => {
     expect(sum([1, 2, 3])).toBe(6);

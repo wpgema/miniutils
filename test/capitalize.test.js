@@ -1,4 +1,4 @@
-import capitalize from "../src/capitalize.js";
+import capitalize from "../src/string/capitalize.js";
 
 test("capitalize should make first letter uppercase", () => {
     expect(capitalize("hello")).toBe("Hello");

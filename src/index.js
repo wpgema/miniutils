@@ -1,8 +1,13 @@
-export { default as isEmpty } from "./isEmpty.js";
-export { default as capitalize } from "./capitalize.js";
-export { default as sum } from "./sum.js";
-export { default as lowercase } from "./lowercase.js";
-export { default as uppercase } from "./uppercase.js";
-export { default as slug } from "./slug.js";
-export { default as truncate } from "./truncate.js";
-export { default as unique } from "./unique.js";
+// String Helpers
+export { default as capitalize } from "./string/capitalize.js";
+export { default as lowercase } from "./string/lowercase.js";
+export { default as uppercase } from "./string/uppercase.js";
+export { default as slug } from "./string/slug.js";
+export { default as truncate } from "./string/truncate.js";
+
+// Array Helpers
+export { default as sum } from "./array/sum.js";
+export { default as unique } from "./array/unique.js";
+
+// General Helpers
+export { default as isEmpty } from "./general/isEmpty.js";

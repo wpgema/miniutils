@@ -1,4 +1,4 @@
-import unique from "../src/unique.js";
+import unique from "../src/array/unique.js";
 
 test("unique should remove duplicate values from an array", () => {
     expect(unique([1, 2, 2, 3, 4, 4, 5])).toEqual([1, 2, 3, 4, 5]);

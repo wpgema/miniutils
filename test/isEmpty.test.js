@@ -1,4 +1,4 @@
-import isEmpty from "../src/isEmpty.js";
+import isEmpty from "../src/general/isEmpty.js";
 
 test("isEmpty should detect empty values", () => {
     expect(isEmpty([])).toBe(true);

@@ -1,4 +1,4 @@
-import uppercase from "../src/uppercase.js";
+import uppercase from "../src/string/uppercase.js";
 
 test("uppercase should convert string to uppercase", () => {
     expect(uppercase("hello")).toBe("HELLO");

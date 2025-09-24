@@ -1,4 +1,4 @@
-import lowercase from "../src/lowercase.js";
+import lowercase from "../src/string/lowercase.js";
 
 test("lowercase should convert string to lowercase", () => {
     expect(lowercase("HELLO")).toBe("hello");

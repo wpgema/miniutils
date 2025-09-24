@@ -1,4 +1,4 @@
-import slug from "../src/slug.js";
+import slug from "../src/string/slug.js";
 
 test("slug should convert strings to URL-friendly slugs", () => {
     expect(slug("Hello World")).toBe("hello-world");

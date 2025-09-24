@@ -1,4 +1,4 @@
-import truncate from "../src/truncate.js";
+import truncate from "../src/string/truncate.js";
 
 test("truncate should shorten string longer than length", () => {
     expect(truncate("Hello World", 5)).toBe("Hello...");
