@@ -11,3 +11,4 @@ export { default as unique } from "./array/unique.js";
 
 // General Helpers
 export { default as isEmpty } from "./general/isEmpty.js";
+export { default as deepClone } from "./general/deepClone.js";
