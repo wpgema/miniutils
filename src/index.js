@@ -5,3 +5,4 @@ export { default as lowercase } from "./lowercase.js";
 export { default as uppercase } from "./uppercase.js";
 export { default as slug } from "./slug.js";
 export { default as truncate } from "./truncate.js";
+export { default as unique } from "./unique.js";
