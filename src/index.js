@@ -15,3 +15,4 @@ export { default as deepClone } from "./general/deepClone.js";
 
 // object helpers
 export { default as isEmptyObject } from "./general/isEmptyObject.js"
+export { default as mergeObject } from "./general/mergeObject.js"
