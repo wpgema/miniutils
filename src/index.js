@@ -4,6 +4,7 @@ export { default as lowercase } from "./string/lowercase.js";
 export { default as uppercase } from "./string/uppercase.js";
 export { default as slug } from "./string/slug.js";
 export { default as truncate } from "./string/truncate.js";
+export { default as reverse } from "./string/reverse.js";
 
 // Array Helpers
 export { default as sum } from "./array/sum.js";
