@@ -1,4 +1,4 @@
-import { isEmpty, capitalize, sum, lowercase, uppercase, slug, deepClone } from "./src/index.js";
+import { isEmpty, capitalize, sum, lowercase, uppercase, slug, deepClone, rupiahFormatter } from "./src/index.js";
 
 console.log(isEmpty([]));    
 console.log(capitalize("hello")); 
@@ -29,3 +29,4 @@ originalUser.hobbies.push("gaming");
 console.log("After modifying original:");
 console.log("Original:", originalUser);
 console.log("Cloned (unchanged):", clonedUser); 
+console.log(rupiahFormatter(1300000));
