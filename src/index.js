@@ -19,3 +19,4 @@ export { default as mergeObject } from "./general/mergeObject.js";
 
 // number helpers
 export { default as rupiahFormatter } from "./number/rupiahFormatter.js";
+export { default as clamp } from "./number/clamp.js";
