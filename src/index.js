@@ -10,9 +10,8 @@ export { default as sum } from "./array/sum.js";
 export { default as unique } from "./array/unique.js";
 
 // General Helpers
-export { default as isEmptyArray } from "./general/isEmptyArray.js";
+export { default as isEmpty } from "./general/isEmpty.js";
 export { default as deepClone } from "./general/deepClone.js";
 
 // object helpers
-export { default as isEmptyObject } from "./general/isEmptyObject.js"
 export { default as mergeObject } from "./general/mergeObject.js"
