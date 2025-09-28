@@ -1,5 +1,5 @@
 {
-	"name": "utilify",
+	"name": "miniutils",
 	"version": "1.0.0",
 	"description": "A tiny JavaScript utility library for helper functions",
 	"main": "src/index.js",
@@ -13,7 +13,7 @@
 		"helper",
 		"javascript",
 		"library",
-		"utilify"
+		"miniutils"
 	],
 	"authors": [
 		"M. Gema Maulana, S. Kom", 
@@ -22,12 +22,12 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/wpgema/utilify.git"
+		"url": "git+https://github.com/wpgema/miniutils.git"
 	},
 	"bugs": {
-		"url": "https://github.com/wpgema/utilify/issues"
+		"url": "https://github.com/wpgema/miniutils/issues"
 	},
-	"homepage": "https://github.com/wpgema/utilify#readme",
+	"homepage": "https://github.com/wpgema/miniutils#readme",
 	"devDependencies": {
 		"jest": "^29.7.0"
 	}
