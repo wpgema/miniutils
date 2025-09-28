@@ -15,7 +15,10 @@
 		"library",
 		"utilify"
 	],
-	"author": "M. Gema Maulana, S. Kom",
+	"authors": [
+		"M. Gema Maulana, S. Kom", 
+		"Adriyan"
+	],
 	"license": "MIT",
 	"repository": {
 		"type": "git",
