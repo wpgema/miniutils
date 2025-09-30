@@ -1,4 +1,4 @@
-export function formatRupiah(value) {
+export default function formatRupiah(value) {
     if (typeof value !== "number") {
         throw new TypeError("Value must be a number");
     }

@@ -31,7 +31,7 @@ export { default as isEmpty } from "./general/isEmpty.js";
 export { default as deepClone } from "./general/deepClone.js";
 
 // object helpers
-export { default as mergeObject } from "./general/mergeObject.js";
+export { default as mergeObject } from "./object/mergeObject.js";
 
 // number helpers
 export { default as rupiahFormatter } from "./number/rupiahFormatter.js";

@@ -1,4 +1,4 @@
-export function dateFormatter(date) {
+export default function dateFormatter(date) {
   const options = {
     year: 'numeric',
     month: 'long',

@@ -1,4 +1,4 @@
-export function clamp(value, min, max) {
+export default function clamp(value, min, max) {
     if (typeof value !== "number" || typeof min !== "number" || typeof max !== "number") {
         throw new TypeError("All arguments must be numbers");
     }
