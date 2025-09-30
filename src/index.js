@@ -25,6 +25,7 @@ export { default as maskString } from "./string/maskString.js";
 // Array Helpers
 export { default as sum } from "./array/sum.js";
 export { default as unique } from "./array/unique.js";
+export { default as average } from "./array/average.js";
 
 // General Helpers
 export { default as isEmpty } from "./general/isEmpty.js";
